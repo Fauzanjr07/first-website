@@ -1,0 +1,85 @@
+
+*,
+html{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background-color: tomato;
+}
+
+.container-NavBar {
+	background-color: #002B5B;
+}
+
+
+.Navbar-ul {
+	height: 8vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+
+.Navbar-li {
+	color: white;
+	list-style-type: none;
+	padding: 18px;
+	margin: 30px;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.Navbar-li:hover {
+	background-color: #256D85;
+	transition: .4s ease-in-out;
+	transition-delay: .2s;
+	border-radius: 8px;
+}
+
+.a-navbar {
+	color: white;
+	text-decoration: none;
+}
+
+.container-Content{
+	background-color: #2B4865;
+	height: 72vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.content-img {
+	width: 50%;
+}
+
+.a-img{
+	height: 48vh;
+	width: 40%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.container-Footer{
+	background-color: #8FE3CF;
+	height: 20vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: Segoe UI;
+}
+
+#biodata{
+	background-color: white;
+	width: 80vh;
+	height: 15vh;
+	font-family: Segoe UI;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: bold;
+}
+
